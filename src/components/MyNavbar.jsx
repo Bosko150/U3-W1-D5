@@ -15,11 +15,11 @@ class MyNavbar extends Component {
             <Navbar.Toggle aria-controls="navbarSupportedContent" />
             <Navbar.Collapse>
               <Nav className="me-auto mb-2 mb-lg-0">
-                <Nav.Link href="#">Home</Nav.Link>
-                <Nav.Link href="#">Tv Shows</Nav.Link>
-                <Nav.Link href="#">Movies</Nav.Link>
-                <Nav.Link href="#">Recently Added</Nav.Link>
-                <Nav.Link href="#">My List</Nav.Link>
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#tvshows">Tv Shows</Nav.Link>
+                <Nav.Link href="#movies">Movies</Nav.Link>
+                <Nav.Link href="#recent">Recently Added</Nav.Link>
+                <Nav.Link href="#mylist">My List</Nav.Link>
               </Nav>
               <Nav className="mb-2 me-lg-4 mb-lg-0 align-items-center justify-content-end flex-row">
                 <Nav.Link href="#" className="text-light pe-2">
@@ -36,9 +36,9 @@ class MyNavbar extends Component {
                   align="end"
                   data-bs-theme="dark"
                 >
-                  <NavDropdown.Item href="profile.html">Profile</NavDropdown.Item>
-                  <NavDropdown.Item href="settings.html">Settings</NavDropdown.Item>
-                  <NavDropdown.Item href="#">Logout</NavDropdown.Item>
+                  <NavDropdown.Item href="profile">Profile</NavDropdown.Item>
+                  <NavDropdown.Item href="settings">Settings</NavDropdown.Item>
+                  <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
